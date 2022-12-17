@@ -13,7 +13,7 @@ echo "CICD Check starting"
         echo "testReport file found sending to artifactory"
 #       curl -H X-JFrog-Art-Api:Token -T $file https://oneartifactorycloud/artifactory/CICD/Reports/$REPORTNAME.html
 #       curl -H X-JFrog-Art-Api:Token -T $file https://oneartifactorycloud/artifactory/CICD/Reports/$REPORTNAME.html
-        curl -X PUT -u "xyz@gmail.com:Token"--data '{"update":{"labels":[{"add":"DEMO"}]}}' --header "Content-Type: application/json" "Authorization: Basic XkO2YJUvaof4fsvLAqtM63EA"   https://singam.atlassian.net/rest/api/3/issue/SA-1
+#        curl -X PUT -u "xyz@gmail.com:Token"--data '{"update":{"labels":[{"add":"DEMO"}]}}' --header "Content-Type: application/json" "Authorization: Basic XkO2YJUvaof4fsvLAqtM63EA"   https://singam.atlassian.net/rest/api/3/issue/SA-1
 
   else
    echo "testReport file found sending to artifactory"
