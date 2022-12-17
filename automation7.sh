@@ -10,10 +10,12 @@ style="width: 100%; max-width: 1200px; background-color: #ffffff">
 <th>Key</th>
 </tr>
 EOF
-Paste jiraid.txt  | while read; do
+# MULTIPLE FILES READ
+Paste jiraid.txt version.txt  | while read take; do
   cat >> jira.html <<EOF
 <tr>
 <td>$read</td>
+<td>$take</td>
 </tr>
 EOF
 done
