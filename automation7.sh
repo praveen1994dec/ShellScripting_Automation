@@ -1,3 +1,4 @@
+#SEND AN EMAIL TO TEAM AFTER THE VERSION IS INCREMENTED
 cat > html <<'EOF'
 <html>
 <body>
