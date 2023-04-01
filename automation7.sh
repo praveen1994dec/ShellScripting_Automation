@@ -11,7 +11,7 @@ style="width: 100%; max-width: 1200px; background-color: #ffffff">
 </tr>
 EOF
 # MULTIPLE FILES READ
-Paste jiraid.txt version.txt  | while read take; do
+paste jiraid.txt version.txt  | while read take; do
   cat >> jira.html <<EOF
 <tr>
 <td>$read</td>
