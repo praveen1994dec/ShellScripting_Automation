@@ -12,7 +12,7 @@ echo "CICD Check starting"
   if [ -f "$file" ]; then
         echo "testReport file found sending to artifactory"
        curl -H X-JFrog-Art-Api:Token -T $file https://oneartifactorycloud/artifactory/CICD/Reports/$REPORTNAME.html
-  else
+   else
    echo "testReport file found sending to artifactory"
   fi
 fi
