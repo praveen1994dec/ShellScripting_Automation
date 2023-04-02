@@ -1,5 +1,5 @@
 #SEND AN EMAIL TO TEAM AFTER THE VERSION IS INCREMENTED
-cat > html <<'EOF'
+cat > jira.html <<'EOF'
 <html>
 <body>
 <p><strong>MODULE_VERSION - {{module_version}}</strong></p>
@@ -19,4 +19,3 @@ paste jiraid.txt version.txt  | while read take; do
 </tr>
 EOF
 done
-
