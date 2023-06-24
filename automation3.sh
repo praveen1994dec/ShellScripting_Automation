@@ -14,7 +14,7 @@ do
         echo $JAR
         JAR_RUN=`echo $JAR | sed 's/ /,/g'`
         echo $JAR_RUN
-       cd /apps/nnos/vzomega/scripts
+       cd /apps/nnos/test/scripts
         ./mail.sh $line $JAR_RUN $COUNT
     fi
 done
