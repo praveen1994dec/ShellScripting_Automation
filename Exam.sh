@@ -1,5 +1,7 @@
 Write a shell script to read the data from below log file and get the ip address  
 
+https://www.onlinegdb.com/online_bash_shell
+
 
 
 03/22 08:51:06 TRACE  :...read_physical_netif: Home list entries returned = 7
