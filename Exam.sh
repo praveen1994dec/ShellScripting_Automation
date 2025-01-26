@@ -14,3 +14,11 @@ https://www.onlinegdb.com/online_bash_shell
 03/22 08:51:06 INFO   :...read_physical_netif: index #6, interface LOOPBACK has address 127.0.0.1, ifidx 0
 03/22 08:51:06 INFO   :....mailslot_create: creating mailslot for timer
 03/22 08:51:06 INFO   :...mailbox_register: mailbox allocated for timer
+
+
+Desired Output
+
+129.1.1.1
+9.37.65.139
+9.67.100.1
+9.67.116.98
