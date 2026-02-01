@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Function to find log files older than 7 days
-find_old_logs() {
+find_old_logs() { 
     # Set the directory to search and the log file extension
     local directory="$1"
     local extension="$2"
