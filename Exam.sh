@@ -1,6 +1,6 @@
 Write a shell script to read the data from below log file and get the ip address  
 
-https://www.onlinegdb.com/online_bash_shell 
+https://www.onlinegdb.com/online_bash_shell   
 
 
 
